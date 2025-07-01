@@ -34,6 +34,7 @@ body {
   width: 100vw;
   padding: 2rem 3vw;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 .app.light {
