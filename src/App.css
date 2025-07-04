@@ -222,3 +222,14 @@ main {
   font-style: italic;
   font-family: inherit;
 }
+
+@keyframes flameFlicker {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 2px orange);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 6px red);
+  }
+}
